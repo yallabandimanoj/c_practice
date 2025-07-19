@@ -1,0 +1,11 @@
+git comands
+
+git status - to check untracked files
+
+git add filename.c or dir or multiple dir
+
+git commit -m "discription"
+
+git push origin main(branch name)
+
+
