@@ -1,19 +1,20 @@
-#include<stdio.h>
+#include <stdio.h>
 
-int main()
+int main() {
+    int a, b;
 
-{
-int num=0;
-if(num!=0)
+    printf("Enter first integer: ");
+    scanf("%d", &a);
 
-{
-	printf("hello\n");
-}
-	else 
-	{
+    printf("Enter second integer: ");
+    scanf("%d", &b);
 
-	printf("hi\n");
-	}
+    printf("\nBitwise Operations:\n");
+    printf("AND (a & b)  = %d\n", a & b);
+    printf("OR  (a | b)  = %d\n", a | b);
+    printf("XOR (a ^ b)  = %d\n", a ^ b);
+
+    return 0;
 }
 
 
