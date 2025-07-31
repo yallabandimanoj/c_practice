@@ -51,7 +51,7 @@ int main() {
         default:
             printf("Invalid choice\n");
             return 1;
-    }https://www.onlinegdb.com/online_c_compiler#tab-stdin
+    }
 
     printf("Decimal: %d\n", num);
     print_binary(num);
