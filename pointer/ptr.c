@@ -2,10 +2,20 @@
 
 int main()
 {
+	int a =10;
+	int *p = &a;
 
-int var =10;
-int *ptr =&var;
-printf("%d\n",var);
+	printf("the value of a is =%d\n",a);
+
+	printf("the address of a is =%p\n",&a);
+	printf("the variable address in pointer is %p\n",p);
+
+	printf("the pointer address  is =%p\n",&p);
+	printf("the value in the pointer  =%d\n",*p);
+	printf("the address of a is =%d\n",*(&a));
 return 0;
 }
+
+
+
 
