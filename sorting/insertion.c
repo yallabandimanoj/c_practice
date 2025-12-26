@@ -27,7 +27,7 @@ int main()
 	
 	}
 }
-	printf("sorted list in aascending order\n");
+	printf("sorted list in ascending order\n");
 	for(int i=0;i<n;i++)
 {
 	printf("%d\n",arr[i]);
